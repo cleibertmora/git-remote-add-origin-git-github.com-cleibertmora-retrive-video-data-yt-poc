@@ -1,0 +1,40 @@
+# Ignore config files with sensitive keys
+config.json
+
+# Ignore environment files (if present)
+.env
+
+# Ignore logs and debug output
+*.log
+*.log.*
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore vendor directory (if using composer)
+vendor/
+
+# Ignore node_modules (if using any JS dependencies)
+node_modules/
+
+# Ignore cache directories
+cache/
+tmp/
+*.cache
+
+# Ignore compiled files
+*.class
+*.o
+*.so
+
+# Ignore IDE-specific files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore OS-specific files
+._*
+*.swp
+*.bak
+*.tmp
